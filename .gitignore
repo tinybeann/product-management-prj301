@@ -1,0 +1,68 @@
+# =============================================================================
+# .gitignore - Product Management (Java / NetBeans Ant)
+# =============================================================================
+
+# --- Compiled class files ---
+*.class
+
+# --- Log files ---
+*.log
+
+# --- Package files ---
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# --- Java virtual machine crash logs ---
+hs_err_pid*
+
+# --- NetBeans (Ant project) ---
+build/
+dist/
+nbproject/
+*.nb-gradle/
+
+# --- OS generated files ---
+Thumbs.db
+.DS_Store
+desktop.ini
+ehthumbs.db
+Icon?
+
+# --- IDEs ---
+.idea/
+*.iml
+*.iws
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# --- Secrets / environment ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+*.keystore
+*.jks
+*.local.properties
+
+# --- Local databases / dumps ---
+*.mdf
+*.ldf
+*.bak
+*.sqlite
+*.db
+
+# --- Temporary / backup files ---
+*~
+*.bak
+*.tmp
+*.orig
+
+# =============================================================================
